@@ -3,12 +3,28 @@ title: "Homework-2"
 format: html
 editor: visual
 ---
+#Packages
 
 ##Question 1
-####A
+
+
 ```{r}
 #| eval = FALSE
 install.packages("aRtsy")
 ```
-####B
-#install.packages is a collection of function and tools while a library is a place packages are stored. 
+
+#install.packages is a collection of function and tools while a library is a place packages are stored.
+
+\newpage
+
+##Question 2 
+```{r}
+library(aRtsy)
+#Collatz conjecture is a mathmatical riddle where you take any positive whole number and follow two simple rules over and over and will eventually end up back at 1. 
+```
+$$ f(n)
+\begin{cases}
+\frac{n}{2} & \text{if } n \text{ is even} \\
+3n + 1 & \text{if } n \text{ is odd}
+\end{cases} $$
+
