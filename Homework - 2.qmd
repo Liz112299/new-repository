@@ -45,3 +45,15 @@ set.seed(7)
 ##B
 # You get different outputs because we told r to pick 10 random images to output. 
 # This may be troublesome because its not reproducible, when rendering different outputs are produced meaning you will see something different then I will. 
+
+\newpage 
+##Question 4
+```{r}
+canvas_collatz(
+  colors = c("blue"),
+  n = 1:20
+)
+# the code from question 3 pulls 10 random numbers while the code above tells us n can onyl be numbers from 1-20 and nothing else. 
+# no setting set.seed(1) would not be appropriate here because there is no randomness and it will only output the same number.
+```
+
