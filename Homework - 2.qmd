@@ -28,3 +28,20 @@ $$ f(n)
 3n + 1 & \text{if } n \text{ is odd}
 \end{cases} $$
 
+\newpage 
+
+##Question 3
+```{r}
+canvas_collatz(
+  colors = c("blue"),
+  n=10
+)
+# canvas collatz calls for the specific artwork. Colors is the type of color to draw the branches with. And n=10 is the telling r to pick 10 random numbers bending the lines each time its even or odd. 
+```
+```{r}
+set.seed(7)
+```
+
+##B
+# You get different outputs because we told r to pick 10 random images to output. 
+# This may be troublesome because its not reproducible, when rendering different outputs are produced meaning you will see something different then I will. 
