@@ -1,0 +1,14 @@
+---
+title: "Homework-2"
+format: html
+editor: visual
+---
+
+##Question 1
+####A
+```{r}
+#| eval = FALSE
+install.packages("aRtsy")
+```
+####B
+#install.packages is a collection of function and tools while a library is a place packages are stored. 
