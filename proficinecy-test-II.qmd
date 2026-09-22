@@ -1,0 +1,14 @@
+---
+title: "proficiency-test-II"
+format: html
+editor: visual
+---
+
+```{r}
+miles_per_gallon <- function(x)
+mtcars
+for (x in 1:3) {
+  print (miles_per_gallon(mpg))
+}
+```
+
